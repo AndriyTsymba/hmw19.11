@@ -13,11 +13,8 @@ namespace hmw19._11
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;
 
-            Console.Write("Введіть число: ");
-            int number = Convert.ToInt32(Console.ReadLine());
-
-
-            Console.WriteLine(Palindrome.IsPalindrome(number));
+            Website website = new Website("Google", "google.com", "Search engine", "fdfdfdfd");
+            Console.WriteLine(website.Print());
         }
     }
 }
